@@ -1,0 +1,17 @@
+
+.canvas {
+  z-index: -10;
+}
+.registerbox{
+    width: 360px;
+    padding: 10px 0 30px 0;
+    position: absolute;
+    top: 20%;
+    left: 49%;
+    margin-left: -200px;
+}
+.ant-btn.ant-btn-primary.ant-btn-lg{
+    span{
+        color: #ffffff;
+    }
+}
