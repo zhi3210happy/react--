@@ -46,6 +46,7 @@ var webpackConfig = merge(baseWebpackConfig, {
     }),
     // Compress extracted CSS. We are using this plugin so that possible
     // duplicated CSS from different components can be deduped.
+    // 使用此插件后导致Login页面按钮CSS效果失效
     // new OptimizeCSSPlugin({
     //   cssProcessorOptions: {
     //     safe: true
